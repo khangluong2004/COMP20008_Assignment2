@@ -51,3 +51,25 @@ For missing community from the scraped list, manually search for it:
                        'wintervalley': 'ballarat', 
                        'woolamaiwaters': 'basscoast'}
 ```
+
+## REPORTS NOTES
+
+### Pre-processing
+
+Across 4 tables, clean and form LGA to join the data:
+1. Communities: Lower case, remove space, remove brackets at the end (eg: (C), (RC), (B))
+2. EGM: Lower case, remove space, remove filler words (city, rural, of, borough)
+3. Housing Price: Map the locality to LGA (by scrape government website above, manual search, and remove directions)
+4. Offences: Lower case, remove space
+
+Note: 1, 2, 4 are processed in the same way. The note is for the actual effect on them.
+
+### EDA
+
+### Correlation Analysis
+
+### Trend/ Relationship Analysis
+
+### Model
+
+### Conclusion
