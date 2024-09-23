@@ -1,3 +1,4 @@
 Data/
 Data.zip
 .DS_Store
+*.sqlite3
