@@ -2,3 +2,5 @@ Data/
 Data.zip
 .DS_Store
 *.sqlite3
+
+.idea/
