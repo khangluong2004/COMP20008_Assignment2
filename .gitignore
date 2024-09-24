@@ -4,3 +4,4 @@ Data.zip
 *.sqlite3
 
 .idea/
+*.png
