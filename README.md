@@ -6,7 +6,7 @@
 
  BRIEF WORKFLOW (TBD)
 1. Use the root repository for group shared file (EDA, Model, etc.)
-2. Make a folder with your name (eg: khang\ ) to store your personal messing with EDA, etc., to keep track of contribution? 
+2. Make a folder with your name (eg: khang\ ) to store your personal messing with EDA, etc.
 
  FILES:
 1. lgaLocality: Information of locality for each LGA scraped from: https://www.vic.gov.au/know-your-council 
@@ -52,24 +52,24 @@ For missing community from the scraped list, manually search for it:
                        'woolamaiwaters': 'basscoast'}
 ```
 
-## REPORTS NOTES
+## Notes on notebooks
 
-### Pre-processing
+Khang:
 
-Across 4 tables, clean and form LGA to join the data:
-1. Communities: Lower case, remove space, remove brackets at the end (eg: (C), (RC), (B))
-2. EGM: Lower case, remove space, remove filler words (city, rural, of, borough)
-3. Housing Price: Map the locality to LGA (by scrape government website above, manual search, and remove directions)
-4. Offences: Lower case, remove space
+Cleaning of all files, especially crawling and mapping locality to LGA for HousingPrice,
+aggregating and normalizing Communities column, grouping of almagated LGA in EGM Loss,
+and other cleaning mentioned in the report: <b> khang/preProcessing.ipynb</b>
 
-Note: 1, 2, 4 are processed in the same way. The note is for the actual effect on them.
+Cleaned csvs are included in <b>cleanedCsv</b> folder.
 
-### EDA
+All visuals for Correlation Analysis section (scatterplot, box plot, bar charts), and 
+other personal EDA: <b>khang/eda.ipynb</b>
 
-### Correlation Analysis
+All Tree/ Community-focused Modelling: khang/model.ipynb
+Linear Regression Testing (Include in Terry's script for final evaluation): <b>khang/modelNoComm.ipynb</b>
 
-### Trend/ Relationship Analysis
+Another Scripts to produce bar chart/ bubble from pred.csv and population.csv
+for future population count: <b>khang/prediction.ipynb</b>
 
-### Model
+Remaining is to test other's scripts, and models.
 
-### Conclusion
