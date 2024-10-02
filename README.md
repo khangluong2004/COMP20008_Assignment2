@@ -1,14 +1,14 @@
- COMP2008 ASSIGNMENT 2
+# COMP2008 ASSIGNMENT 2
 
- SET UP
+## SET UP
 1. Pull this repo
 2. Download and extract the Data.zip from the LMS to the root directory inside Data/ . This is ignored from Git due to the large size.
 
- BRIEF WORKFLOW (TBD)
+## BRIEF WORKFLOW 
 1. Use the root repository for group shared file (EDA, Model, etc.)
 2. Make a folder with your name (eg: khang\ ) to store your personal messing with EDA, etc.
 
- FILES:
+## FILES:
 1. lgaLocality: Information of locality for each LGA scraped from: https://www.vic.gov.au/know-your-council 
 (LIMITATION: The website contains typo and list)
 
@@ -53,7 +53,7 @@ For missing community from the scraped list, manually search for it:
 ```
 
 ## cleanedCsv
-Cleaned csvs are included in.
+Cleaned csvs are included in here.
 
 ## Notes on notebooks
 
