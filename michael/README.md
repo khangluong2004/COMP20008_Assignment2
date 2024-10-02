@@ -1,3 +1,5 @@
+# Michael
+
 ###  `eda_communities.ipynb`
 ---
 Contains code for EDA on population. Graphs used in the report are labelled with the heading "Used In Report". Simply run the notebook to generate graphs and statistics are printed in the outputs.
