@@ -76,8 +76,6 @@ Linear Regression Testing (Include in Terry's script for final evaluation)
 Another Scripts to produce bar chart/ bubble from pred.csv and population.csv
 for future population count
 
-Remaining is to test other's scripts, and models.
-
 ## Michael folder
 
 ###  `eda_communities.ipynb`
@@ -108,3 +106,4 @@ Code for generating the complete preprocessed dataset, and performances EDA. Req
 
 First section cleans and joins the datasets. Second section produces time-series EDA graphs.
 
+Remaining is to test other's scripts, and models.
